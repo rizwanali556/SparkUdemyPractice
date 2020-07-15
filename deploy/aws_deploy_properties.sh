@@ -1,7 +1,7 @@
 #!bin/bash
 
 # Tag_Version number for the project
-export BuildName="version_$Tag_Version"
+export Buildtag="2.0"
 
 # BucketName for the s3 Artifact
 export BucketName="s3-jenkins-artifact"
