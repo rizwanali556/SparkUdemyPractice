@@ -13,7 +13,7 @@ export ApplicationName="$(pwd | cut -d'/' -f7)"
 export Applicationpath="$(pwd)"
 
 # Key name to specify the Project version folder in s3
-export keyname=""$ApplicationName"_"$BuildName"/"
+export keyname=""$ApplicationName"_"$Buildtag"/"
 
 # Region name for deploying in to s3 Artifact
 export region="--region ap-south-1"
